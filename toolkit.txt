@@ -1,0 +1,2207 @@
+-- Gui to Lua
+-- Version: 3
+
+-- Instances:
+
+local TS2oolkitbyDomidiceBoogs = Instance.new("ScreenGui")
+local Dragbar = Instance.new("Frame")
+local NextButton = Instance.new("TextButton")
+local PrevButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Pages = Instance.new("Frame")
+local Page2 = Instance.new("Frame")
+local z_to_armfly = Instance.new("TextButton")
+local paidr15emotes = Instance.new("TextButton")
+local freecam = Instance.new("TextButton")
+local creeper = Instance.new("TextButton")
+local bringchickensandwich = Instance.new("TextButton")
+local bringsledgebutton = Instance.new("TextButton")
+local bringkatanabutton = Instance.new("TextButton")
+local altdestroy = Instance.new("TextButton")
+local reset = Instance.new("Frame")
+local RESET = Instance.new("TextButton")
+local SOFTRESET = Instance.new("TextButton")
+local chatspy = Instance.new("TextButton")
+local bringchicken = Instance.new("TextButton")
+local Page1 = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local credits = Instance.new("TextLabel")
+local reviz = Instance.new("TextButton")
+local moneylocator = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local esp = Instance.new("TextButton")
+local antistomp = Instance.new("TextButton")
+local GunDupeGui = Instance.new("TextButton")
+local FEHugKill = Instance.new("TextButton")
+local _115Script = Instance.new("TextButton")
+local reset_2 = Instance.new("Frame")
+local RESET_2 = Instance.new("TextButton")
+local SOFTRESET_2 = Instance.new("TextButton")
+local UIPageLayout = Instance.new("UIPageLayout")
+local Page3 = Instance.new("Frame")
+local ninjakit = Instance.new("TextButton")
+local superherokit = Instance.new("TextButton")
+local werewolfkit = Instance.new("TextButton")
+local vampire = Instance.new("TextButton")
+local magekit = Instance.new("TextButton")
+local stylishkit = Instance.new("TextButton")
+local bubblykit = Instance.new("TextButton")
+local levitationkit = Instance.new("TextButton")
+local Domsmemekit = Instance.new("TextButton")
+local reset_3 = Instance.new("Frame")
+local RESET_3 = Instance.new("TextButton")
+local SOFTRESET_3 = Instance.new("TextButton")
+local zombie_kit = Instance.new("TextButton")
+local elderkit = Instance.new("TextButton")
+local knightkit = Instance.new("TextButton")
+local toykit = Instance.new("TextButton")
+local cartoonykit = Instance.new("TextButton")
+local astronautkit = Instance.new("TextButton")
+local robotkit = Instance.new("TextButton")
+local piratekit = Instance.new("TextButton")
+local Page4 = Instance.new("Frame")
+local reset_4 = Instance.new("Frame")
+local RESET_4 = Instance.new("TextButton")
+local SOFTRESET_4 = Instance.new("TextButton")
+local domquote = Instance.new("TextLabel")
+local domquote_2 = Instance.new("TextLabel")
+local albertquote = Instance.new("TextLabel")
+local albertquote_2 = Instance.new("TextLabel")
+local albertquote_3 = Instance.new("TextLabel")
+local albertquote1 = Instance.new("TextLabel")
+local albertquote1_2 = Instance.new("TextLabel")
+local albertquote1_3 = Instance.new("TextLabel")
+local albertquote_4 = Instance.new("TextLabel")
+local monkeymonkeysaiko = Instance.new("TextLabel")
+local boog = Instance.new("TextLabel")
+local vline = Instance.new("TextLabel")
+local thip = Instance.new("TextLabel")
+local vline_2 = Instance.new("TextLabel")
+local vline_3 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+TS2oolkitbyDomidiceBoogs.Name = "TS2oolkit by Domidice & Boogs"
+TS2oolkitbyDomidiceBoogs.Parent = game.CoreGui
+TS2oolkitbyDomidiceBoogs.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Dragbar.Name = "Dragbar"
+Dragbar.Parent = TS2oolkitbyDomidiceBoogs
+Dragbar.BackgroundColor3 = Color3.new(0.164706, 0.164706, 0.164706)
+Dragbar.BorderSizePixel = 0
+Dragbar.Position = UDim2.new(0.716660678, 0, 0.173532873, 0)
+Dragbar.Size = UDim2.new(0, 79, 0, 28)
+
+NextButton.Name = "NextButton"
+NextButton.Parent = Dragbar
+NextButton.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+NextButton.BorderSizePixel = 0
+NextButton.Position = UDim2.new(1.2188164, 0, -0.0074955672, 0)
+NextButton.Size = UDim2.new(0, 64, 0, 29)
+NextButton.Font = Enum.Font.SourceSansBold
+NextButton.Text = "Next"
+NextButton.TextColor3 = Color3.new(1, 1, 1)
+NextButton.TextSize = 14
+
+PrevButton.Name = "PrevButton"
+PrevButton.Parent = Dragbar
+PrevButton.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+PrevButton.BorderSizePixel = 0
+PrevButton.Position = UDim2.new(-1.04577053, 0, -0.00749557465, 0)
+PrevButton.Size = UDim2.new(0, 64, 0, 29)
+PrevButton.Font = Enum.Font.SourceSansBold
+PrevButton.Text = "Prev"
+PrevButton.TextColor3 = Color3.new(1, 1, 1)
+PrevButton.TextSize = 14
+
+TextLabel.Parent = Dragbar
+TextLabel.BackgroundColor3 = Color3.new(0.396078, 1, 0.588235)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.151898727, 0, 0.740626752, 0)
+TextLabel.Size = UDim2.new(0, 52, 0, 2)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+TextLabel.TextSize = 23
+
+TextLabel_2.Parent = Dragbar
+TextLabel_2.BackgroundColor3 = Color3.new(1, 0.6, 0.25098)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.237168714, 0, 0.42899999, 2)
+TextLabel_2.Size = UDim2.new(0, 38, 0, 2)
+TextLabel_2.Font = Enum.Font.Fantasy
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.new(1, 0.6, 0.25098)
+TextLabel_2.TextSize = 23
+
+TextLabel_3.Parent = Dragbar
+TextLabel_3.BackgroundColor3 = Color3.new(0.894118, 0.294118, 1)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.363999993, -1, 0, 7)
+TextLabel_3.Size = UDim2.new(0, 21, 0, 2)
+TextLabel_3.Font = Enum.Font.Fantasy
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+TextLabel_3.TextSize = 23
+
+Pages.Name = "Pages"
+Pages.Parent = Dragbar
+Pages.BackgroundColor3 = Color3.new(0.239216, 0.239216, 0.239216)
+Pages.BorderSizePixel = 0
+Pages.ClipsDescendants = true
+Pages.Position = UDim2.new(-1.04112768, 0, 0.985008776, 0)
+Pages.Size = UDim2.new(0, 243, 0, 393)
+
+Page2.Name = "Page2"
+Page2.Parent = Pages
+Page2.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+Page2.BorderSizePixel = 0
+Page2.Size = UDim2.new(0, 243, 0, 393)
+
+z_to_armfly.Name = "z_to_arm fly"
+z_to_armfly.Parent = Page2
+z_to_armfly.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+z_to_armfly.BorderSizePixel = 0
+z_to_armfly.Position = UDim2.new(0.139917701, 0, 0.228851467, 0)
+z_to_armfly.Size = UDim2.new(0, 174, 0, 27)
+z_to_armfly.Font = Enum.Font.SourceSansBold
+z_to_armfly.Text = "z_to_arm_fly"
+z_to_armfly.TextColor3 = Color3.new(1, 0.6, 0.25098)
+z_to_armfly.TextSize = 14
+
+paidr15emotes.Name = "paid r15 emotes"
+paidr15emotes.Parent = Page2
+paidr15emotes.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+paidr15emotes.BorderSizePixel = 0
+paidr15emotes.Position = UDim2.new(0.135999888, 0, 0.0279999953, 0)
+paidr15emotes.Size = UDim2.new(0, 80, 0, 27)
+paidr15emotes.Font = Enum.Font.SourceSansBold
+paidr15emotes.Text = "emotes_script"
+paidr15emotes.TextColor3 = Color3.new(1, 0.6, 0.25098)
+paidr15emotes.TextSize = 14
+
+freecam.Name = "freecam"
+freecam.Parent = Page2
+freecam.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+freecam.BorderSizePixel = 0
+freecam.Position = UDim2.new(0.139917701, 0, 0.431403339, 0)
+freecam.Size = UDim2.new(0, 174, 0, 27)
+freecam.Font = Enum.Font.SourceSansBold
+freecam.Text = "shift+p_cinematic_free_cam"
+freecam.TextColor3 = Color3.new(1, 0.6, 0.25098)
+freecam.TextSize = 14
+
+creeper.Name = "creeper"
+creeper.Parent = Page2
+creeper.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+creeper.BorderSizePixel = 0
+creeper.Position = UDim2.new(0.140000001, 0, 0.125, 0)
+creeper.Size = UDim2.new(0, 174, 0, 27)
+creeper.Font = Enum.Font.SourceSansBold
+creeper.Text = "creeper_aww_man"
+creeper.TextColor3 = Color3.new(1, 0.6, 0.25098)
+creeper.TextSize = 14
+
+bringchickensandwich.Name = "bringchicken sandwich"
+bringchickensandwich.Parent = Page2
+bringchickensandwich.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+bringchickensandwich.BorderSizePixel = 0
+bringchickensandwich.Position = UDim2.new(0.140000001, 0, 0.638999999, 0)
+bringchickensandwich.Size = UDim2.new(0, 174, 0, 27)
+bringchickensandwich.Font = Enum.Font.SourceSansBold
+bringchickensandwich.Text = "bring_chicken_sandwich"
+bringchickensandwich.TextColor3 = Color3.new(1, 0.6, 0.25098)
+bringchickensandwich.TextSize = 14
+
+bringsledgebutton.Name = "bring sledge button"
+bringsledgebutton.Parent = Page2
+bringsledgebutton.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+bringsledgebutton.BorderSizePixel = 0
+bringsledgebutton.Position = UDim2.new(0.140000001, 0, 0.850000024, 0)
+bringsledgebutton.Size = UDim2.new(0, 174, 0, 27)
+bringsledgebutton.Font = Enum.Font.SourceSansBold
+bringsledgebutton.Text = "bring_sledge_button"
+bringsledgebutton.TextColor3 = Color3.new(1, 0.6, 0.25098)
+bringsledgebutton.TextSize = 14
+
+bringkatanabutton.Name = "bring katana button"
+bringkatanabutton.Parent = Page2
+bringkatanabutton.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+bringkatanabutton.BorderSizePixel = 0
+bringkatanabutton.Position = UDim2.new(0.140000001, 0, 0.745000005, 0)
+bringkatanabutton.Size = UDim2.new(0, 174, 0, 27)
+bringkatanabutton.Font = Enum.Font.SourceSansBold
+bringkatanabutton.Text = "bring_katana_button"
+bringkatanabutton.TextColor3 = Color3.new(1, 0.6, 0.25098)
+bringkatanabutton.TextSize = 14
+
+altdestroy.Name = "alt destroy"
+altdestroy.Parent = Page2
+altdestroy.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+altdestroy.BorderSizePixel = 0
+altdestroy.Position = UDim2.new(0.139917701, 0, 0.330127358, 0)
+altdestroy.Size = UDim2.new(0, 174, 0, 27)
+altdestroy.Font = Enum.Font.SourceSansBold
+altdestroy.Text = "click_left_alt_destroy"
+altdestroy.TextColor3 = Color3.new(1, 0.6, 0.25098)
+altdestroy.TextSize = 14
+
+reset.Name = "reset"
+reset.Parent = Page2
+reset.BackgroundColor3 = Color3.new(1, 1, 1)
+reset.BackgroundTransparency = 1
+reset.Position = UDim2.new(0.666241288, 0, 0.659705162, 0)
+reset.Size = UDim2.new(0, 224, 0, 22)
+
+RESET.Name = "RESET"
+RESET.Parent = reset
+RESET.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+RESET.BorderSizePixel = 0
+RESET.Position = UDim2.new(-0.606321394, 0, 5.20545435, 0)
+RESET.Size = UDim2.new(0, 87, 0, 19)
+RESET.Font = Enum.Font.SciFi
+RESET.Text = "RESET"
+RESET.TextColor3 = Color3.new(0.937255, 0, 0)
+RESET.TextSize = 13
+
+SOFTRESET.Name = "SOFT RESET"
+SOFTRESET.Parent = reset
+SOFTRESET.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+SOFTRESET.BorderSizePixel = 0
+SOFTRESET.Position = UDim2.new(-0.129970014, 0, 5.20545435, 0)
+SOFTRESET.Size = UDim2.new(0, 87, 0, 19)
+SOFTRESET.Font = Enum.Font.SciFi
+SOFTRESET.Text = "SOFT_RESET"
+SOFTRESET.TextColor3 = Color3.new(0, 0.760784, 0)
+SOFTRESET.TextSize = 13
+
+chatspy.Name = "chat spy"
+chatspy.Parent = Page2
+chatspy.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+chatspy.BorderSizePixel = 0
+chatspy.Position = UDim2.new(0.529355645, 0, 0.0279999953, 0)
+chatspy.Size = UDim2.new(0, 77, 0, 27)
+chatspy.Font = Enum.Font.SourceSansBold
+chatspy.Text = "chat_spy"
+chatspy.TextColor3 = Color3.new(1, 0.6, 0.25098)
+chatspy.TextSize = 14
+
+bringchicken.Name = "bring chicken"
+bringchicken.Parent = Page2
+bringchicken.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+bringchicken.BorderSizePixel = 0
+bringchicken.Position = UDim2.new(0.140000001, 0, 0.532999992, 0)
+bringchicken.Size = UDim2.new(0, 174, 0, 27)
+bringchicken.Font = Enum.Font.SourceSansBold
+bringchicken.Text = "bring_chicken"
+bringchicken.TextColor3 = Color3.new(1, 0.6, 0.25098)
+bringchicken.TextSize = 14
+
+Page1.Name = "Page1"
+Page1.Parent = Pages
+Page1.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+Page1.BorderSizePixel = 0
+Page1.Size = UDim2.new(0, 243, 0, 393)
+
+title.Name = "title"
+title.Parent = Page1
+title.Active = true
+title.BackgroundColor3 = Color3.new(1, 1, 1)
+title.BackgroundTransparency = 1
+title.Position = UDim2.new(0.18106997, 0, 0.0107121747, 0)
+title.Size = UDim2.new(0, 155, 0, 34)
+title.ZIndex = 6
+title.Font = Enum.Font.Fantasy
+title.Text = "TS2oolkit v1"
+title.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+title.TextSize = 30
+
+credits.Name = "credits"
+credits.Parent = Page1
+credits.Active = true
+credits.BackgroundColor3 = Color3.new(1, 1, 1)
+credits.BackgroundTransparency = 1
+credits.Position = UDim2.new(0.200137034, 0, 0.0972261727, 0)
+credits.Size = UDim2.new(0, 150, 0, 13)
+credits.ZIndex = 6
+credits.Font = Enum.Font.Fantasy
+credits.Text = "by Domidice & Boogs"
+credits.TextColor3 = Color3.new(1, 0.6, 0.25098)
+credits.TextSize = 15
+
+reviz.Name = "reviz"
+reviz.Parent = Page1
+reviz.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+reviz.BorderSizePixel = 0
+reviz.Position = UDim2.new(0.139917701, 0, 0.63395524, 0)
+reviz.Size = UDim2.new(0, 174, 0, 29)
+reviz.Font = Enum.Font.SourceSansBold
+reviz.Text = "reviz_admin"
+reviz.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+reviz.TextSize = 14
+
+moneylocator.Name = "money locator"
+moneylocator.Parent = Page1
+moneylocator.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+moneylocator.BorderSizePixel = 0
+moneylocator.Position = UDim2.new(0.139917701, 0, 0.147582695, 0)
+moneylocator.Size = UDim2.new(0, 174, 0, 33)
+moneylocator.Font = Enum.Font.SourceSansBold
+moneylocator.Text = "u_for_money_locator"
+moneylocator.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+moneylocator.TextSize = 16
+
+fly.Name = "fly"
+fly.Parent = Page1
+fly.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+fly.BorderSizePixel = 0
+fly.Position = UDim2.new(0.139917701, 0, 0.34285, 0)
+fly.Size = UDim2.new(0, 174, 0, 24)
+fly.Font = Enum.Font.SourceSansBold
+fly.Text = "x_to_fly"
+fly.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+fly.TextSize = 16
+
+esp.Name = "esp"
+esp.Parent = Page1
+esp.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+esp.BorderSizePixel = 0
+esp.Position = UDim2.new(0.139917701, 0, 0.840527713, 0)
+esp.Size = UDim2.new(0, 174, 0, 31)
+esp.Font = Enum.Font.SourceSansBold
+esp.Text = "essence"
+esp.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+esp.TextSize = 17
+
+antistomp.Name = "anti stomp"
+antistomp.Parent = Page1
+antistomp.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+antistomp.BorderSizePixel = 0
+antistomp.Position = UDim2.new(0.139917701, 0, 0.732686579, 0)
+antistomp.Size = UDim2.new(0, 174, 0, 33)
+antistomp.Font = Enum.Font.SourceSansBold
+antistomp.Text = "anti_stomp"
+antistomp.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+antistomp.TextSize = 16
+
+GunDupeGui.Name = "GunDupeGui"
+GunDupeGui.Parent = Page1
+GunDupeGui.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+GunDupeGui.BorderSizePixel = 0
+GunDupeGui.Position = UDim2.new(0.139917701, 0, 0.535223782, 0)
+GunDupeGui.Size = UDim2.new(0, 174, 0, 28)
+GunDupeGui.Font = Enum.Font.SourceSansBold
+GunDupeGui.Text = "gun_dupe_gui"
+GunDupeGui.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+GunDupeGui.TextSize = 15
+
+FEHugKill.Name = "FE Hug Kill"
+FEHugKill.Parent = Page1
+FEHugKill.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+FEHugKill.BorderSizePixel = 0
+FEHugKill.Position = UDim2.new(0.139917701, 0, 0.433947861, 0)
+FEHugKill.Size = UDim2.new(0, 174, 0, 28)
+FEHugKill.Font = Enum.Font.SourceSansBold
+FEHugKill.Text = "fe_hug_kill"
+FEHugKill.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+FEHugKill.TextSize = 16
+
+_115Script.Name = "115 Script"
+_115Script.Parent = Page1
+_115Script.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+_115Script.BorderSizePixel = 0
+_115Script.Position = UDim2.new(0.139917701, 0, 0.249207705, 0)
+_115Script.Size = UDim2.new(0, 174, 0, 28)
+_115Script.Font = Enum.Font.SourceSansBold
+_115Script.Text = "115_script"
+_115Script.TextColor3 = Color3.new(0.894118, 0.294118, 1)
+_115Script.TextSize = 16
+
+reset_2.Name = "reset"
+reset_2.Parent = Page1
+reset_2.BackgroundColor3 = Color3.new(1, 1, 1)
+reset_2.BackgroundTransparency = 1
+reset_2.Position = UDim2.new(0.666241288, 0, 0.659705162, 0)
+reset_2.Size = UDim2.new(0, 224, 0, 22)
+
+RESET_2.Name = "RESET"
+RESET_2.Parent = reset_2
+RESET_2.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+RESET_2.BorderSizePixel = 0
+RESET_2.Position = UDim2.new(-0.606321394, 0, 5.20545435, 0)
+RESET_2.Size = UDim2.new(0, 87, 0, 19)
+RESET_2.Font = Enum.Font.SciFi
+RESET_2.Text = "RESET"
+RESET_2.TextColor3 = Color3.new(0.937255, 0, 0)
+RESET_2.TextSize = 13
+
+SOFTRESET_2.Name = "SOFT RESET"
+SOFTRESET_2.Parent = reset_2
+SOFTRESET_2.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+SOFTRESET_2.BorderSizePixel = 0
+SOFTRESET_2.Position = UDim2.new(-0.129970014, 0, 5.20545435, 0)
+SOFTRESET_2.Size = UDim2.new(0, 87, 0, 19)
+SOFTRESET_2.Font = Enum.Font.SciFi
+SOFTRESET_2.Text = "SOFT_RESET"
+SOFTRESET_2.TextColor3 = Color3.new(0, 0.760784, 0)
+SOFTRESET_2.TextSize = 13
+
+UIPageLayout.Parent = Pages
+UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIPageLayout.Circular = true
+
+Page3.Name = "Page3"
+Page3.Parent = Pages
+Page3.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+Page3.BorderSizePixel = 0
+Page3.Size = UDim2.new(0, 243, 0, 393)
+
+ninjakit.Name = "ninja kit"
+ninjakit.Parent = Page3
+ninjakit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+ninjakit.BorderSizePixel = 0
+ninjakit.Position = UDim2.new(0.123456798, 0, 0.124681935, 0)
+ninjakit.Size = UDim2.new(0, 87, 0, 27)
+ninjakit.Font = Enum.Font.SourceSansBold
+ninjakit.Text = "ninja_kit"
+ninjakit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+ninjakit.TextSize = 14
+
+superherokit.Name = "superhero kit"
+superherokit.Parent = Page3
+superherokit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+superherokit.BorderSizePixel = 0
+superherokit.Position = UDim2.new(0.123456798, 0, 0.228851467, 0)
+superherokit.Size = UDim2.new(0, 87, 0, 27)
+superherokit.Font = Enum.Font.SourceSansBold
+superherokit.Text = "superhero_kit"
+superherokit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+superherokit.TextSize = 14
+
+werewolfkit.Name = "werewolf kit"
+werewolfkit.Parent = Page3
+werewolfkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+werewolfkit.BorderSizePixel = 0
+werewolfkit.Position = UDim2.new(0.123456798, 0, 0.330127358, 0)
+werewolfkit.Size = UDim2.new(0, 87, 0, 27)
+werewolfkit.Font = Enum.Font.SourceSansBold
+werewolfkit.Text = "werewolf_kit"
+werewolfkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+werewolfkit.TextSize = 14
+
+vampire.Name = "vampire"
+vampire.Parent = Page3
+vampire.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+vampire.BorderSizePixel = 0
+vampire.Position = UDim2.new(0.123456798, 0, 0.431403309, 0)
+vampire.Size = UDim2.new(0, 87, 0, 27)
+vampire.Font = Enum.Font.SourceSansBold
+vampire.Text = "vampire_kit"
+vampire.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+vampire.TextSize = 14
+
+magekit.Name = "mage kit"
+magekit.Parent = Page3
+magekit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+magekit.BorderSizePixel = 0
+magekit.Position = UDim2.new(0.123456798, 0, 0.53267926, 0)
+magekit.Size = UDim2.new(0, 87, 0, 27)
+magekit.Font = Enum.Font.SourceSansBold
+magekit.Text = "mage_kit"
+magekit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+magekit.TextSize = 14
+
+stylishkit.Name = "stylish kit"
+stylishkit.Parent = Page3
+stylishkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+stylishkit.BorderSizePixel = 0
+stylishkit.Position = UDim2.new(0.123456798, 0, 0.639044285, 0)
+stylishkit.Size = UDim2.new(0, 87, 0, 27)
+stylishkit.Font = Enum.Font.SourceSansBold
+stylishkit.Text = "stylish_kit"
+stylishkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+stylishkit.TextSize = 14
+
+bubblykit.Name = "bubbly kit"
+bubblykit.Parent = Page3
+bubblykit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+bubblykit.BorderSizePixel = 0
+bubblykit.Position = UDim2.new(0.123456798, 0, 0.74540931, 0)
+bubblykit.Size = UDim2.new(0, 87, 0, 27)
+bubblykit.Font = Enum.Font.SourceSansBold
+bubblykit.Text = "bubbly_kit"
+bubblykit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+bubblykit.TextSize = 14
+
+levitationkit.Name = "levitation kit"
+levitationkit.Parent = Page3
+levitationkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+levitationkit.BorderSizePixel = 0
+levitationkit.Position = UDim2.new(0.123456798, 0, 0.849927723, 0)
+levitationkit.Size = UDim2.new(0, 87, 0, 27)
+levitationkit.Font = Enum.Font.SourceSansBold
+levitationkit.Text = "levitation_kit"
+levitationkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+levitationkit.TextSize = 14
+
+Domsmemekit.Name = "Dom's memekit"
+Domsmemekit.Parent = Page3
+Domsmemekit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+Domsmemekit.BorderSizePixel = 0
+Domsmemekit.Position = UDim2.new(0.139917701, 0, 0.0279898196, 0)
+Domsmemekit.Size = UDim2.new(0, 174, 0, 27)
+Domsmemekit.Font = Enum.Font.SourceSansBold
+Domsmemekit.Text = "dom's_memekit"
+Domsmemekit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+Domsmemekit.TextSize = 15
+
+reset_3.Name = "reset"
+reset_3.Parent = Page3
+reset_3.BackgroundColor3 = Color3.new(1, 1, 1)
+reset_3.BackgroundTransparency = 1
+reset_3.Position = UDim2.new(0.666241288, 0, 0.659705162, 0)
+reset_3.Size = UDim2.new(0, 224, 0, 22)
+
+RESET_3.Name = "RESET"
+RESET_3.Parent = reset_3
+RESET_3.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+RESET_3.BorderSizePixel = 0
+RESET_3.Position = UDim2.new(-0.606321394, 0, 5.20545435, 0)
+RESET_3.Size = UDim2.new(0, 87, 0, 19)
+RESET_3.Font = Enum.Font.SciFi
+RESET_3.Text = "RESET"
+RESET_3.TextColor3 = Color3.new(0.937255, 0, 0)
+RESET_3.TextSize = 13
+
+SOFTRESET_3.Name = "SOFT RESET"
+SOFTRESET_3.Parent = reset_3
+SOFTRESET_3.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+SOFTRESET_3.BorderSizePixel = 0
+SOFTRESET_3.Position = UDim2.new(-0.129970014, 0, 5.20545435, 0)
+SOFTRESET_3.Size = UDim2.new(0, 87, 0, 19)
+SOFTRESET_3.Font = Enum.Font.SciFi
+SOFTRESET_3.Text = "SOFT_RESET"
+SOFTRESET_3.TextColor3 = Color3.new(0, 0.760784, 0)
+SOFTRESET_3.TextSize = 13
+
+zombie_kit.Name = "zombie_kit"
+zombie_kit.Parent = Page3
+zombie_kit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+zombie_kit.BorderSizePixel = 0
+zombie_kit.Position = UDim2.new(0.522633791, 0, 0.74540931, 0)
+zombie_kit.Size = UDim2.new(0, 87, 0, 27)
+zombie_kit.Font = Enum.Font.SourceSansBold
+zombie_kit.Text = "zombie_kit"
+zombie_kit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+zombie_kit.TextSize = 14
+
+elderkit.Name = "elder kit"
+elderkit.Parent = Page3
+elderkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+elderkit.BorderSizePixel = 0
+elderkit.Position = UDim2.new(0.522633791, 0, 0.849927723, 0)
+elderkit.Size = UDim2.new(0, 87, 0, 27)
+elderkit.Font = Enum.Font.SourceSansBold
+elderkit.Text = "elder_kit"
+elderkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+elderkit.TextSize = 14
+
+knightkit.Name = "knight kit"
+knightkit.Parent = Page3
+knightkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+knightkit.BorderSizePixel = 0
+knightkit.Position = UDim2.new(0.522633791, 0, 0.53267926, 0)
+knightkit.Size = UDim2.new(0, 87, 0, 27)
+knightkit.Font = Enum.Font.SourceSansBold
+knightkit.Text = "knight_kit"
+knightkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+knightkit.TextSize = 14
+
+toykit.Name = "toy kit"
+toykit.Parent = Page3
+toykit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+toykit.BorderSizePixel = 0
+toykit.Position = UDim2.new(0.522633791, 0, 0.124681935, 0)
+toykit.Size = UDim2.new(0, 87, 0, 27)
+toykit.Font = Enum.Font.SourceSansBold
+toykit.Text = "toy_kit"
+toykit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+toykit.TextSize = 14
+
+cartoonykit.Name = "cartoony kit"
+cartoonykit.Parent = Page3
+cartoonykit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+cartoonykit.BorderSizePixel = 0
+cartoonykit.Position = UDim2.new(0.522633791, 0, 0.639044285, 0)
+cartoonykit.Size = UDim2.new(0, 87, 0, 27)
+cartoonykit.Font = Enum.Font.SourceSansBold
+cartoonykit.Text = "cartoony_kit"
+cartoonykit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+cartoonykit.TextSize = 14
+
+astronautkit.Name = "astronaut kit"
+astronautkit.Parent = Page3
+astronautkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+astronautkit.BorderSizePixel = 0
+astronautkit.Position = UDim2.new(0.522633791, 0, 0.228851467, 0)
+astronautkit.Size = UDim2.new(0, 87, 0, 27)
+astronautkit.Font = Enum.Font.SourceSansBold
+astronautkit.Text = "astronaut_kit"
+astronautkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+astronautkit.TextSize = 14
+
+robotkit.Name = "robot kit"
+robotkit.Parent = Page3
+robotkit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+robotkit.BorderSizePixel = 0
+robotkit.Position = UDim2.new(0.522633791, 0, 0.431403309, 0)
+robotkit.Size = UDim2.new(0, 87, 0, 27)
+robotkit.Font = Enum.Font.SourceSansBold
+robotkit.Text = "robot kit"
+robotkit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+robotkit.TextSize = 14
+
+piratekit.Name = "pirate kit"
+piratekit.Parent = Page3
+piratekit.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+piratekit.BorderSizePixel = 0
+piratekit.Position = UDim2.new(0.522633791, 0, 0.330127358, 0)
+piratekit.Size = UDim2.new(0, 87, 0, 27)
+piratekit.Font = Enum.Font.SourceSansBold
+piratekit.Text = "pirate_kit"
+piratekit.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+piratekit.TextSize = 14
+
+Page4.Name = "Page4"
+Page4.Parent = Pages
+Page4.BackgroundColor3 = Color3.new(0.133333, 0.133333, 0.133333)
+Page4.BorderSizePixel = 0
+Page4.Position = UDim2.new(-14.3963642, 0, 1.66012359, 0)
+Page4.Size = UDim2.new(0, 243, 0, 393)
+
+reset_4.Name = "reset"
+reset_4.Parent = Page4
+reset_4.BackgroundColor3 = Color3.new(1, 1, 1)
+reset_4.BackgroundTransparency = 1
+reset_4.Position = UDim2.new(0.666241288, 0, 0.659705162, 0)
+reset_4.Size = UDim2.new(0, 224, 0, 22)
+
+RESET_4.Name = "RESET"
+RESET_4.Parent = reset_4
+RESET_4.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+RESET_4.BorderSizePixel = 0
+RESET_4.Position = UDim2.new(-0.606321394, 0, 5.20545435, 0)
+RESET_4.Size = UDim2.new(0, 87, 0, 19)
+RESET_4.Font = Enum.Font.SciFi
+RESET_4.Text = "RESET"
+RESET_4.TextColor3 = Color3.new(0.937255, 0, 0)
+RESET_4.TextSize = 13
+
+SOFTRESET_4.Name = "SOFT RESET"
+SOFTRESET_4.Parent = reset_4
+SOFTRESET_4.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+SOFTRESET_4.BorderSizePixel = 0
+SOFTRESET_4.Position = UDim2.new(-0.129970014, 0, 5.20545435, 0)
+SOFTRESET_4.Size = UDim2.new(0, 87, 0, 19)
+SOFTRESET_4.Font = Enum.Font.SciFi
+SOFTRESET_4.Text = "SOFT_RESET"
+SOFTRESET_4.TextColor3 = Color3.new(0, 0.760784, 0)
+SOFTRESET_4.TextSize = 13
+
+domquote.Name = "domquote"
+domquote.Parent = Page4
+domquote.Active = true
+domquote.BackgroundColor3 = Color3.new(1, 1, 1)
+domquote.BackgroundTransparency = 1
+domquote.Position = UDim2.new(0.0462927781, 0, 0.0412465632, 0)
+domquote.Size = UDim2.new(0, 199, 0, 32)
+domquote.ZIndex = 6
+domquote.Font = Enum.Font.Fantasy
+domquote.Text = "\"tenemos un un un gran bruh"
+domquote.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+domquote.TextSize = 16
+
+domquote_2.Name = "domquote"
+domquote_2.Parent = Page4
+domquote_2.Active = true
+domquote_2.BackgroundColor3 = Color3.new(1, 1, 1)
+domquote_2.BackgroundTransparency = 1
+domquote_2.Position = UDim2.new(0.190325707, 0, 0.0946816429, 0)
+domquote_2.Size = UDim2.new(0, 147, 0, 37)
+domquote_2.ZIndex = 6
+domquote_2.Font = Enum.Font.Fantasy
+domquote_2.Text = "momento\" -Domidice"
+domquote_2.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+domquote_2.TextSize = 16
+
+albertquote.Name = "albertquote"
+albertquote.Parent = Page4
+albertquote.Active = true
+albertquote.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote.BackgroundTransparency = 1
+albertquote.Position = UDim2.new(0.0209076814, 0, 0.188295171, 0)
+albertquote.Size = UDim2.new(0, 207, 0, 21)
+albertquote.ZIndex = 6
+albertquote.Font = Enum.Font.Fantasy
+albertquote.Text = "\"A person who never made a "
+albertquote.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote.TextSize = 16
+
+albertquote_2.Name = "albertquote"
+albertquote_2.Parent = Page4
+albertquote_2.Active = true
+albertquote_2.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote_2.BackgroundTransparency = 1
+albertquote_2.Position = UDim2.new(0.0785208493, 0, 0.229541734, 0)
+albertquote_2.Size = UDim2.new(0, 207, 0, 22)
+albertquote_2.ZIndex = 6
+albertquote_2.Font = Enum.Font.Fantasy
+albertquote_2.Text = "mistake never tried anything new.\""
+albertquote_2.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote_2.TextSize = 16
+
+albertquote_3.Name = "albertquote"
+albertquote_3.Parent = Page4
+albertquote_3.Active = true
+albertquote_3.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote_3.BackgroundTransparency = 1
+albertquote_3.Position = UDim2.new(0.0744056255, 0, 0.280882239, 0)
+albertquote_3.Size = UDim2.new(0, 207, 0, 19)
+albertquote_3.ZIndex = 6
+albertquote_3.Font = Enum.Font.Fantasy
+albertquote_3.Text = "-Albert Einstein"
+albertquote_3.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote_3.TextSize = 16
+
+albertquote1.Name = "albertquote1"
+albertquote1.Parent = Page4
+albertquote1.Active = true
+albertquote1.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote1.BackgroundTransparency = 1
+albertquote1.Position = UDim2.new(0.0497142673, 0, 0.341501027, 0)
+albertquote1.Size = UDim2.new(0, 207, 0, 28)
+albertquote1.ZIndex = 6
+albertquote1.Font = Enum.Font.Fantasy
+albertquote1.Text = "\"Life is like riding a bicycle. To "
+albertquote1.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote1.TextSize = 16
+
+albertquote1_2.Name = "albertquote1"
+albertquote1_2.Parent = Page4
+albertquote1_2.Active = true
+albertquote1_2.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote1_2.BackgroundTransparency = 1
+albertquote1_2.Position = UDim2.new(0.0990969837, 0, 0.38865155, 0)
+albertquote1_2.Size = UDim2.new(0, 199, 0, 24)
+albertquote1_2.ZIndex = 6
+albertquote1_2.Font = Enum.Font.Fantasy
+albertquote1_2.Text = "keep your balance, you"
+albertquote1_2.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote1_2.TextSize = 16
+
+albertquote1_3.Name = "albertquote1"
+albertquote1_3.Parent = Page4
+albertquote1_3.Active = true
+albertquote1_3.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote1_3.BackgroundTransparency = 1
+albertquote1_3.Position = UDim2.new(0.107327431, 0, 0.433104098, 0)
+albertquote1_3.Size = UDim2.new(0, 199, 0, 20)
+albertquote1_3.ZIndex = 6
+albertquote1_3.Font = Enum.Font.Fantasy
+albertquote1_3.Text = "must keep moving.\""
+albertquote1_3.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote1_3.TextSize = 16
+
+albertquote_4.Name = "albertquote"
+albertquote_4.Parent = Page4
+albertquote_4.Active = true
+albertquote_4.BackgroundColor3 = Color3.new(1, 1, 1)
+albertquote_4.BackgroundTransparency = 1
+albertquote_4.Position = UDim2.new(0.0661751702, 0, 0.473816574, 0)
+albertquote_4.Size = UDim2.new(0, 207, 0, 17)
+albertquote_4.ZIndex = 6
+albertquote_4.Font = Enum.Font.Fantasy
+albertquote_4.Text = "-Albert Einstein"
+albertquote_4.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+albertquote_4.TextSize = 16
+
+monkeymonkeysaiko.Name = "\"monkey monkey!\" -saiko"
+monkeymonkeysaiko.Parent = Page4
+monkeymonkeysaiko.Active = true
+monkeymonkeysaiko.BackgroundColor3 = Color3.new(1, 1, 1)
+monkeymonkeysaiko.BackgroundTransparency = 1
+monkeymonkeysaiko.Position = UDim2.new(-0.0037836805, 0, 0.601043046, 0)
+monkeymonkeysaiko.Size = UDim2.new(0, 207, 0, 17)
+monkeymonkeysaiko.ZIndex = 6
+monkeymonkeysaiko.Font = Enum.Font.Fantasy
+monkeymonkeysaiko.Text = "\"monkey monkey!\" -saik0"
+monkeymonkeysaiko.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+monkeymonkeysaiko.TextSize = 16
+
+boog.Name = "boog"
+boog.Parent = Page4
+boog.Active = true
+boog.BackgroundColor3 = Color3.new(1, 1, 1)
+boog.BackgroundTransparency = 1
+boog.Position = UDim2.new(0.0455990359, 0, 0.662111759, 0)
+boog.Size = UDim2.new(0, 207, 0, 17)
+boog.ZIndex = 6
+boog.Font = Enum.Font.Fantasy
+boog.Text = "\"fuck whores get cash\" -Boogs"
+boog.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+boog.TextSize = 16
+
+vline.Name = "vline"
+vline.Parent = Page4
+vline.Active = true
+vline.BackgroundColor3 = Color3.new(0.894118, 0.294118, 1)
+vline.BackgroundTransparency = 1
+vline.Position = UDim2.new(0.0661751702, 0, 0.73081404, 0)
+vline.Size = UDim2.new(0, 207, 0, 17)
+vline.ZIndex = 6
+vline.Font = Enum.Font.Fantasy
+vline.Text = "\"lick vline\" -Groovy, Domidice"
+vline.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+vline.TextSize = 16
+
+thip.Name = "thip"
+thip.Parent = Page4
+thip.Active = true
+thip.BackgroundColor3 = Color3.new(1, 1, 1)
+thip.BackgroundTransparency = 1
+thip.Position = UDim2.new(0.0785208568, 0, 0.542518854, 0)
+thip.Size = UDim2.new(0, 207, 0, 17)
+thip.ZIndex = 6
+thip.Font = Enum.Font.Fantasy
+thip.Text = "“for what can why do can not” -sipy"
+thip.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+thip.TextSize = 16
+
+vline_2.Name = "vline"
+vline_2.Parent = Page4
+vline_2.Active = true
+vline_2.BackgroundColor3 = Color3.new(1, 1, 1)
+vline_2.BackgroundTransparency = 1
+vline_2.Position = UDim2.new(0.0867512971, 0, 0.796971798, 0)
+vline_2.Size = UDim2.new(0, 172, 0, 17)
+vline_2.ZIndex = 6
+vline_2.Font = Enum.Font.Fantasy
+vline_2.Text = "\"we some cute sk8r boyz\""
+vline_2.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+vline_2.TextSize = 16
+
+vline_3.Name = "vline"
+vline_3.Parent = Page4
+vline_3.Active = true
+vline_3.BackgroundColor3 = Color3.new(1, 1, 1)
+vline_3.BackgroundTransparency = 1
+vline_3.Position = UDim2.new(0.0867512971, 0, 0.840228796, 0)
+vline_3.Size = UDim2.new(0, 172, 0, 17)
+vline_3.ZIndex = 6
+vline_3.Font = Enum.Font.Fantasy
+vline_3.Text = "-Groovy, Domidice"
+vline_3.TextColor3 = Color3.new(0.396078, 1, 0.588235)
+vline_3.TextSize = 16
+
+Frame.Parent = Dragbar
+Frame.BackgroundColor3 = Color3.new(0.188235, 0.188235, 0.188235)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.151898742, 0, -0.678571403, 0)
+Frame.Size = UDim2.new(0, 52, 0, 19)
+
+Close.Name = "Close"
+Close.Parent = Dragbar
+Close.BackgroundColor3 = Color3.new(1, 0.262745, 0.27451)
+Close.Position = UDim2.new(0.587143421, 0, -0.547848761, 0)
+Close.Size = UDim2.new(0, 10, 0, 10)
+Close.Font = Enum.Font.SourceSans
+Close.Text = ""
+Close.TextColor3 = Color3.new(0, 0, 0)
+Close.TextSize = 14
+
+Open.Name = "Open"
+Open.Parent = Dragbar
+Open.BackgroundColor3 = Color3.new(0.45098, 1, 0.368627)
+Open.Position = UDim2.new(0.261511236, 0, -0.547848761, 0)
+Open.Size = UDim2.new(0, 10, 0, 10)
+Open.Font = Enum.Font.SourceSans
+Open.Text = ""
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextSize = 14
+
+-- Scripts:
+
+local function NFZYIG_fake_script() -- Dragbar.PageScript 
+	local script = Instance.new('LocalScript', Dragbar)
+
+	local pageLayout = script.Parent.Pages.UIPageLayout
+	local nextButton = script.Parent.NextButton
+	local prevButton = script.Parent.PrevButton
+	
+	nextButton.MouseButton1Click:Connect( function ()
+	    pageLayout:Next()
+	end )
+	
+	prevButton.MouseButton1Click:Connect( function ()
+	    pageLayout:Previous()
+	end )
+end
+coroutine.wrap(NFZYIG_fake_script)()
+local function HLDIPVZ_fake_script() -- Dragbar.DragScript 
+	local script = Instance.new('LocalScript', Dragbar)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HLDIPVZ_fake_script)()
+local function MLAXT_fake_script() -- z_to_armfly.LocalScript 
+	local script = Instance.new('LocalScript', z_to_armfly)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/CDMsXe3Q'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(MLAXT_fake_script)()
+local function FEIT_fake_script() -- paidr15emotes.LocalScript 
+	local script = Instance.new('LocalScript', paidr15emotes)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/gSZN3z6K'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(FEIT_fake_script)()
+local function EOOCE_fake_script() -- freecam.LocalScript 
+	local script = Instance.new('LocalScript', freecam)
+
+	function leftclick()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/UbHnERaq"),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(EOOCE_fake_script)()
+local function YEXA_fake_script() -- creeper.LocalScript 
+	local script = Instance.new('LocalScript', creeper)
+
+	function leftclick()
+		      -->>Creeper R15<<--
+	-->>___Made By Infinity#3369___<--
+	
+	local lol = game:GetService('Players').LocalPlayer
+	lol.Character["Head"].Mesh:Destroy()
+	lol.Character["LeftUpperArm"]:Destroy()
+	lol.Character["RightUpperArm"]:Destroy()
+	
+	for i,v in pairs(game:GetService('Players').LocalPlayer.Character:GetDescendants()) do
+	if v:IsA'Hat' or v:IsA'Accessory' then
+	v.Parent = game:GetService'Workspace'
+	end
+	end
+	
+	local fuck = game:GetService('Players').LocalPlayer
+	if game.Players.LocalPlayer == fuck then
+	print("succesfully creeped u! enjoy!")
+	end
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(YEXA_fake_script)()
+local function RFHHLQK_fake_script() -- bringchickensandwich.LocalScript 
+	local script = Instance.new('LocalScript', bringchickensandwich)
+
+	function leftClick()
+	    	for i,v in pairs(workspace:GetDescendants()) do
+	if v.Name == "Chicken Sandwhich" then
+	v.CanCollide = false
+	v.Anchored = true
+	v.Transparency = 0
+	v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(10, 0, 0)
+	end
+	end    
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(RFHHLQK_fake_script)()
+local function GAGRHLA_fake_script() -- bringsledgebutton.LocalScript 
+	local script = Instance.new('LocalScript', bringsledgebutton)
+
+	function leftClick()
+	    	for i,v in pairs(workspace:GetDescendants()) do
+	if v.Name == "Sledge" then
+	v.CanCollide = false
+	v.Anchored = true
+	v.Transparency = 0
+	v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(10, 0, 0)
+	end
+	end    
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(GAGRHLA_fake_script)()
+local function XDJZPWH_fake_script() -- bringkatanabutton.LocalScript 
+	local script = Instance.new('LocalScript', bringkatanabutton)
+
+	function leftClick()
+	    	for i,v in pairs(workspace:GetDescendants()) do
+	if v.Name == "Katana" then
+	v.CanCollide = false
+	v.Anchored = true
+	v.Transparency = 0
+	v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(10, 0, 0)
+	end
+	end    
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(XDJZPWH_fake_script)()
+local function FUHTTU_fake_script() -- altdestroy.LocalScript 
+	local script = Instance.new('LocalScript', altdestroy)
+
+	function leftclick()
+		local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+	
+	Mouse.Button1Down:connect(function()
+	if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftAlt) then return end
+	if not Mouse.Target then return end
+	Mouse.Target:Destroy()
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(FUHTTU_fake_script)()
+local function LFKCL_fake_script() -- RESET.LocalScript 
+	local script = Instance.new('LocalScript', RESET)
+
+	function leftclick()
+	game.Players.LocalPlayer.Character:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(LFKCL_fake_script)()
+local function HLHO_fake_script() -- SOFTRESET.LocalScript 
+	local script = Instance.new('LocalScript', SOFTRESET)
+
+	function leftclick()
+	game.ReplicatedStorage.OpenEyes:FireServer()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(HLHO_fake_script)()
+local function ZHKWQ_fake_script() -- chatspy.LocalScript 
+	local script = Instance.new('LocalScript', chatspy)
+
+	function leftclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/qNMunbP8", true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(ZHKWQ_fake_script)()
+local function IEXCQJW_fake_script() -- bringchicken.LocalScript 
+	local script = Instance.new('LocalScript', bringchicken)
+
+	function leftClick()
+	    	for i,v in pairs(workspace:GetDescendants()) do
+	if v.Name == "Chicken" then
+	v.CanCollide = false
+	v.Anchored = true
+	v.Transparency = 0
+	v.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(10, 0, 0)
+	end
+	end    
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(IEXCQJW_fake_script)()
+local function POCJL_fake_script() -- reviz.LocalScript 
+	local script = Instance.new('LocalScript', reviz)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/KNUzQPYS'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(POCJL_fake_script)()
+local function TLXRKRD_fake_script() -- moneylocator.LocalScript 
+	local script = Instance.new('LocalScript', moneylocator)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/BZEPTZPV'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(TLXRKRD_fake_script)()
+local function BXRTTXA_fake_script() -- fly.LocalScript 
+	local script = Instance.new('LocalScript', fly)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/5anFLWAH'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(BXRTTXA_fake_script)()
+local function XUPZX_fake_script() -- esp.LocalScript 
+	local script = Instance.new('LocalScript', esp)
+
+	function leftclick()
+		--Essence by sirelKilla (v3rm)
+	--Put this script in your autoexec folder!
+	
+	--hidden feature: ALT+B to toggle the default backpack
+	--// init //
+	local settings = {noclipKey="World69",clicktpKey="T",cmdKey="Semicolon",clickespKey="LeftControl"} --blank=World69
+	local tpIgnore = true
+	local tpExact = false
+	local espLimit = 9999
+	local Players = game:GetService("Players")
+	local UIS = game:GetService("UserInputService")
+	local StarterGui = game:GetService("StarterGui")
+	local CoreGui = game:GetService("CoreGui")
+	local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+	player = Players.LocalPlayer
+	local cam = workspace.CurrentCamera
+	math.randomseed(tick())
+	local root
+	if readfile then
+		pcall(function()
+			local new = game:GetService("HttpService"):JSONDecode(readfile("EssenceSettings.txt"))
+			--corruption?
+			local doOverwrite=false
+			for k,v in pairs(new) do
+				if settings[k]==nil then
+					doOverwrite=true
+					new[k]=nil
+				end
+			end
+			for k,v in pairs(settings) do
+				if new[k]==nil then
+					doOverwrite=true
+					new[k]=v
+				end
+			end
+			--use input
+			if doOverwrite then
+				writefile("EssenceSettings.txt",game:GetService("HttpService"):JSONEncode(new))
+			end
+			settings = new
+		end)
+		game.Close:Connect(function()
+			writefile("EssenceSettings.txt",game:GetService("HttpService"):JSONEncode(settings))
+		end)
+	end
+	--feel free to add commands
+	local adminCommands = {
+	rj = function() game:GetService("TeleportService"):Teleport(game.PlaceId,player) end,
+	rejoin = function() game:GetService("TeleportService"):Teleport(game.PlaceId,player) end,
+	ws = function(argsString) player.Character.Humanoid.WalkSpeed = tonumber(argsString) end,
+	jp = function(argsString) player.Character.Humanoid.JumpPower = tonumber(argsString) end,
+	hh = function(argsString)
+		if argsString == '' then
+			if player.Character.Humanoid.HipHeight > 2.5 then
+				player.Character.Humanoid.HipHeight = 2
+			else
+				player.Character.Humanoid.HipHeight = 10
+			end
+		else
+			player.Character.Humanoid.HipHeight = tonumber(argsString)
+		end
+	end,
+	goto = function(argsString)
+		local target = getPlayer(argsString)
+		if target and target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
+			if tpExact then
+				root.CFrame = target.Character.HumanoidRootPart.CFrame
+			else
+				player.Character:MoveTo(target.Character.HumanoidRootPart.CFrame.p)
+			end
+		end
+	end,
+	}
+	--// utilities //
+	function getFirstChild(service,str,modifier)
+		local children = service:GetChildren()
+		for i=1,#children do
+			local v = children[i]
+			for s in string.gmatch(v.Name,"%S+") do
+				if modifier(s:sub(1,#str)) == str then
+					return v
+				end
+			end
+		end
+	end
+	function findObject(service,str)
+		if service and str and #str>0 then
+			--exact match
+			local targ = service:FindFirstChild(str) or service:FindFirstChild(str:lower())
+			if targ then
+				return targ
+			else
+				--loose match
+				return getFirstChild(service,str,(str:lower()==str and string.lower) or function(x) return x end)
+			end
+		end
+	end
+	function getPlayer(str)
+		if str:lower()=="me" then
+			return player
+		elseif str:lower()=="random" then
+			local players = Players:GetPlayers()
+			for i=1,#players do
+				if players[i]==player then
+					table.remove(players,i)
+					break
+				end
+			end
+			return players[math.random(1,#players)]
+		elseif str:sub(1,1)=='%' then
+			local team = findObject(game:GetService('Teams'),str:sub(2))
+			if team then
+				local players = team:GetPlayers()
+				for i=1,#players do
+					if players[i]==player then
+						table.remove(players,i)
+						break
+					end
+				end
+				return players[math.random(1,#players)]
+			end
+		else
+			return findObject(Players,str)
+		end
+	end
+	local espManagementTick = 0
+	local function espManage()
+		espManagementTick = tick()
+		local camPos = cam.CFrame.p
+		local folders = espGui:GetChildren()
+		for i=1,#folders do
+			folders[i].Box.Visible = false
+			folders[i].BillboardGui.Enabled = false
+		end
+		local players = Players:GetPlayers()
+		for i=1,#players do
+			local p = players[i]
+			local folder = espGui:FindFirstChild(p.Name)
+			if not folder then
+				folder = Instance.new("Folder")
+				folder.Name = p.Name
+				boxTemplate:Clone().Parent = folder
+				bbTemplate:Clone().Parent = folder
+				folder.BillboardGui.NameTag.Text = p.Name
+				folder.Parent = espGui
+			end
+			if p~=player and p.Character then
+				local pRoot = p.Character:FindFirstChild("HumanoidRootPart")
+				if pRoot then
+					local distance = (pRoot.Position-camPos).Magnitude
+					if distance < espLimit then
+						local box,bbgui = folder.Box,folder.BillboardGui
+						bbgui.NameTag.TextColor3 = p.TeamColor.Color
+						bbgui.Adornee = pRoot
+						bbgui.Enabled = true
+						if distance > 900 then
+							box.Visible = false
+							bbgui.NameTag.TextStrokeTransparency = 1
+							bbgui.Dot.BackgroundColor3 = p.TeamColor.Color
+							bbgui.Dot.Visible = true
+						else
+							box.Color3 = p.TeamColor.Color
+							box.Adornee = pRoot
+							box.Visible = true
+							bbgui.Dot.Visible = false
+							bbgui.NameTag.TextStrokeTransparency = 0.3
+							if distance > 300 then
+								box.Transparency = 0
+							else
+								box.Transparency = 0.5
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	local function shortenKey(name)
+		if name=="World69" then
+			return ""
+		elseif name=="LeftControl" or name=="RightControl" then
+			return "CTRL"
+		elseif name=="LeftShift" or name=="RightShift" then
+			return "SHIFT"
+		elseif name=="LeftAlt" or name=="RightAlt" then
+			return "ALT"
+		end
+		local succ,c = pcall(string.char,Enum.KeyCode[name].Value)
+		if succ and c:match("%S") then
+			return c:upper()
+		end
+		return name:upper()
+	end
+	--// interface //
+	Create = function(class,parent,props)
+		local new = Instance.new(class)
+		for k,v in next,props do
+			new[k]=v
+		end
+		new.Parent = parent
+		return new
+	end
+	gui=Create("ScreenGui",CoreGui,{Name="Essence", ZIndexBehavior="Sibling", ResetOnSpawn=false, DisplayOrder=0})
+	Main=Create("ImageLabel",gui,{Name="Main", Image="rbxassetid://2851925780", BorderSizePixel=0, SliceCenter=Rect.new(15,15,15,15), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), 
+		BackgroundTransparency=1, Position=UDim2.new(0.75,0,1,-133), ImageColor3=Color3.new(0.176,0.176,0.176), Size=UDim2.new(0,171,0,310), BackgroundColor3=Color3.new(1,1,1), ImageTransparency=0.15})
+	noclipFrame=Create("ImageLabel",Main,{Name="noclipFrame", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), BackgroundTransparency=1, 
+		Position=UDim2.new(0,11,0,30), ImageColor3=Color3.new(0.902,0.902,0.902), Size=UDim2.new(0,150,0,25), BackgroundColor3=Color3.new(1,1,1)})
+	noclipBtn=Create("ImageButton",noclipFrame,{Name="noclipBtn", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), Position=UDim2.new(0,1,0,1), 
+		ImageColor3=Color3.new(0.176,0.176,0.176), Size=UDim2.new(1,-2,1,-2), BackgroundTransparency=1, BackgroundColor3=Color3.new(1,1,1)})
+	noclipLbl=Create("TextLabel",noclipBtn,{Name="noclipLbl", TextWrapped=true, Size=UDim2.new(0.4,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="OFF", TextSize=20, 
+		TextXAlignment="Left", Font="SourceSansSemibold", BackgroundTransparency=1, Position=UDim2.new(0.6,0,0,0), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	Label=Create("TextLabel",noclipBtn,{TextWrapped=true, Size=UDim2.new(0.58,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="NoClip:", TextSize=20, TextXAlignment="Right", 
+		Font="SourceSansSemibold", BackgroundTransparency=1, TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	tpmodeFrame=Create("ImageLabel",Main,{Name="tpmodeFrame", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), BackgroundTransparency=1, 
+		Position=UDim2.new(0,11,0,78), ImageColor3=Color3.new(0.902,0.902,0.902), Size=UDim2.new(0,150,0,25), BackgroundColor3=Color3.new(1,1,1)})
+	tpmodeBtn=Create("ImageButton",tpmodeFrame,{Name="tpmodeBtn", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), Position=UDim2.new(0,1,0,1), 
+		ImageColor3=Color3.new(0.176,0.176,0.176), Size=UDim2.new(1,-2,1,-2), BackgroundTransparency=1, BackgroundColor3=Color3.new(1,1,1)})
+	tpmodeLbl=Create("TextLabel",tpmodeBtn,{Name="tpmodeLbl", TextWrapped=true, Size=UDim2.new(0.4,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text=tpExact and "EXACT" or "MOVE", TextSize=20, 
+		TextXAlignment="Left", Font="SourceSansSemibold", BackgroundTransparency=1, Position=UDim2.new(0.6,0,0,0), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	Label_2=Create("TextLabel",tpmodeBtn,{TextWrapped=true, Size=UDim2.new(0.58,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="TpMode:", TextSize=20, TextXAlignment="Right", 
+		Font="SourceSansSemibold", BackgroundTransparency=1, TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	espFrame=Create("ImageLabel",Main,{Name="espFrame", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), BackgroundTransparency=1, 
+		Position=UDim2.new(0,11,0,54), ImageColor3=Color3.new(0.902,0.902,0.902), Size=UDim2.new(0,150,0,25), BackgroundColor3=Color3.new(1,1,1)})
+	espBtn=Create("ImageButton",espFrame,{Name="espBtn", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), Position=UDim2.new(0,1,0,1), 
+		ImageColor3=Color3.new(0.176,0.176,0.176), Size=UDim2.new(1,-2,1,-2), BackgroundTransparency=1, BackgroundColor3=Color3.new(1,1,1)})
+	espLbl=Create("TextLabel",espBtn,{Name="espLbl", TextWrapped=true, Size=UDim2.new(0.4,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="OFF", TextSize=20, 
+		TextXAlignment="Left", Font="SourceSansSemibold", BackgroundTransparency=1, Position=UDim2.new(0.6,0,0,0), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	Label_3=Create("TextLabel",espBtn,{TextWrapped=true, Size=UDim2.new(0.58,0,1,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="BoxESP:", TextSize=20, TextXAlignment="Right", 
+		Font="SourceSansSemibold", BackgroundTransparency=1, TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1)})
+	cmdFrame=Create("ImageLabel",Main,{Name="cmdFrame", Image="rbxassetid://2851928141", SliceCenter=Rect.new(8,8,8,8), ScaleType="Slice", BorderColor3=Color3.new(0.106,0.165,0.208), BackgroundTransparency=1, 
+		Position=UDim2.new(0,11,0,107), ImageColor3=Color3.new(0.902,0.902,0.902), Size=UDim2.new(0,150,0,23), BackgroundColor3=Color3.new(1,1,1)})
+	cmdBox=Create("TextBox",cmdFrame,{Name="cmdBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.498,0.498,0.498), PlaceholderText=string.gsub(";rj ;goto ;hh ;ws ;jp",";",shortenKey(settings.cmdKey)), Size=UDim2.new(0.9,0,0.8,0),
+		BorderColor3=Color3.new(0.106,0.165,0.208), Text="", TextSize=20, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0.05,0,0.05,0), BackgroundColor3=Color3.new(1,1,1)})
+	arrowBtn=Create("ImageButton",Main,{Name="arrowBtn", Image="rbxassetid://3070990525", BorderColor3=Color3.new(0.106,0.165,0.208), Rotation=90, Position=UDim2.new(0,71,0,-21), ImageColor3=Color3.new(0.902,0.902,0.902), 
+		Size=UDim2.new(0,25,0,70), BackgroundTransparency=1, BackgroundColor3=Color3.new(1,1,1)})
+	cogBtn=Create("ImageButton",Main,{Name="cogBtn", Image="rbxassetid://1533715539", BorderColor3=Color3.new(0.106,0.165,0.208), Position=UDim2.new(0,13,0,3), ImageColor3=Color3.new(0.902,0.902,0.902), Size=UDim2.new(0,23,0,23), 
+		BackgroundTransparency=1, BackgroundColor3=Color3.new(1,1,1)})
+	Options=Create("Folder",Main,{Name="Options"})
+	noclipKeyBox=Create("TextBox",Options,{Name="noclipKeyBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.698,0.698,0.698), Size=UDim2.new(0,35,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text=shortenKey(settings.noclipKey), 
+		TextSize=14, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSansBold", Position=UDim2.new(0,125,0,162), TextScaled=true, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	noclipKeyLbl=Create("TextLabel",Options,{Name="noclipKeyLbl", TextWrapped=true, Size=UDim2.new(0,105,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text="Noclip key", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,160), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	clicktpKeyBox=Create("TextBox",Options,{Name="clicktpKeyBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.698,0.698,0.698), Size=UDim2.new(0,35,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text=shortenKey(settings.clicktpKey), 
+		TextSize=14, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSansBold", Position=UDim2.new(0,125,0,210), TextScaled=true, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	clicktpKeyLbl=Create("TextLabel",Options,{Name="clicktpKeyLbl", TextWrapped=true, Size=UDim2.new(0,105,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text="ClickTP key", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,208), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	cmdKeyBox=Create("TextBox",Options,{Name="cmdKeyBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.698,0.698,0.698), Size=UDim2.new(0,35,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text=shortenKey(settings.cmdKey), 
+		TextSize=14, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSansBold", Position=UDim2.new(0,125,0,138), TextScaled=true, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	cmdKeyLbl=Create("TextLabel",Options,{Name="cmdKeyLbl", TextWrapped=true, Size=UDim2.new(0,105,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text="Command key", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,138), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	clickespKeyBox=Create("TextBox",Options,{Name="clickespKeyBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.698,0.698,0.698), Size=UDim2.new(0,35,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text=shortenKey(settings.clickespKey), 
+		TextSize=14, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSansBold", Position=UDim2.new(0,125,0,186), TextScaled=true, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	clickespKeyLbl=Create("TextLabel",Options,{Name="clickespKeyLbl", TextWrapped=true, Size=UDim2.new(0,105,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text="ClickESP key", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,184), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	tpignoreBtn=Create("TextButton",Options,{Name="tpignoreBtn", TextWrapped=true, Size=UDim2.new(0,25,0,16), TextColor3=Color3.new(0.176,0.176,0.176), BorderColor3=Color3.new(0.106,0.165,0.208), Text=tpIgnore and 'X' or '', 
+		Font="SourceSansBold", Position=UDim2.new(0,131,0,258), TextSize=23, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	tpignoreLbl=Create("TextLabel",Options,{Name="tpignoreLbl", TextWrapped=true, Size=UDim2.new(0,105,0,40), BorderColor3=Color3.new(0.106,0.165,0.208), Text="Clicks ignore transparent", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,256), TextColor3=Color3.new(0.902,0.902,0.902), TextYAlignment="Top", BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	espLimitBox=Create("TextBox",Options,{Name="espLimitBox", TextWrapped=true, PlaceholderColor3=Color3.new(0.698,0.698,0.698), Size=UDim2.new(0,35,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text=tostring(espLimit), 
+		TextSize=14, TextColor3=Color3.new(0.176,0.176,0.176), Font="SourceSansBold", Position=UDim2.new(0,125,0,234), TextScaled=true, BackgroundColor3=Color3.new(0.902,0.902,0.902)})
+	espLimitLbl=Create("TextLabel",Options,{Name="espLimitLbl", TextWrapped=true, Size=UDim2.new(0,105,0,16), BorderColor3=Color3.new(0.106,0.165,0.208), Text="ESP max studs", TextSize=17, 
+		Font="Fantasy", BackgroundTransparency=1, Position=UDim2.new(0,11,0,232), TextColor3=Color3.new(0.902,0.902,0.902), BackgroundColor3=Color3.new(1,1,1), TextXAlignment="Left"})
+	containerStats=Create("Frame",gui,{Name="containerStats", BorderColor3=Color3.new(0.106,0.165,0.208), BackgroundTransparency=1, Size=UDim2.new(0,200,0,50), Position=UDim2.new(0.75,175,1,-51)})
+	fpsLbl=Create("TextLabel",containerStats,{Name="fpsLbl", TextWrapped=true, TextStrokeTransparency=0.30000001192093, Size=UDim2.new(0.33,0,0.5,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="60 FPS", 
+		TextSize=25, Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0.15,0,0,0), TextColor3=Color3.new(1,1,1), BackgroundColor3=Color3.new(1,1,1)})
+	timeLbl=Create("TextLabel",containerStats,{Name="timeLbl", TextWrapped=true, TextStrokeTransparency=0.30000001192093, Size=UDim2.new(0.33,0,0.5,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="0:00", 
+		TextSize=25, Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0.52,0,0,0), TextColor3=Color3.new(1,1,1)})
+	xLbl=Create("TextLabel",containerStats,{Name="xLbl", TextWrapped=true, TextStrokeTransparency=0.30000001192093, Size=UDim2.new(0.333,0,0.5,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="0.00", 
+		TextSize=25, Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0,0,0.5,0), TextColor3=Color3.new(1,0,0)})
+	yLbl=Create("TextLabel",containerStats,{Name="yLbl", TextWrapped=true, TextStrokeTransparency=0.30000001192093, Size=UDim2.new(0.333,0,0.5,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="0.00", 
+		TextSize=25, Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0.333,0,0.5,0), TextColor3=Color3.new(0,1,0)})
+	zLbl=Create("TextLabel",containerStats,{Name="zLbl", TextWrapped=true, TextStrokeTransparency=0.30000001192093, Size=UDim2.new(0.333,0,0.5,0), BorderColor3=Color3.new(0.106,0.165,0.208), Text="0.00", 
+		TextSize=25, Font="SourceSans", BackgroundTransparency=1, Position=UDim2.new(0.666,0,0.5,0), TextColor3=Color3.new(1,1,0)})
+	copyPosBtn=Create("TextButton",containerStats,{Name="copyPosBtn", BackgroundTransparency=1, Size=UDim2.new(1,0,0.5,0), Position=UDim2.new(0,0,0.5,0), TextScaled=true, Text="Copy position", TextColor3=Color3.new(1,1,1),
+		BackgroundColor3=Color3.new(), Font="SourceSansLight", BorderSizePixel=0, ZIndex=2, TextTransparency=1})
+	partInfoGui=Create("BillboardGui",gui,{Name="partInfoGui", AlwaysOnTop=true, StudsOffset=Vector3.new(0,5,0), ResetOnSpawn=false, Size=UDim2.new(0,40,0,40), Enabled=false, Active=true})
+	partNameLbl=Create("TextLabel",partInfoGui,{Name="partNameLbl", BackgroundTransparency=1, Size=UDim2.new(1,0,0.5,0), Font="Highway", TextColor3=Color3.new(1,0.667,0), TextSize=26, TextStrokeTransparency=0})
+	partPosLbl=Create("TextLabel",partInfoGui,{Name="partPosLbl", BackgroundTransparency=1, Size=UDim2.new(1,0,0.5,0), Position=UDim2.new(0,0,0.5,0), TextColor3=Color3.new(1,1,1), TextSize=13, TextStrokeTransparency=0})
+	partInfoBox=Create("SelectionBox",partInfoGui,{Color3=Color3.new(1,0.5,0), LineThickness=0.2})
+	partDelBtn=Create("ImageButton",partInfoGui,{Name="partDelBtn", BackgroundTransparency=1, Size=UDim2.new(1,0,1,0), ZIndex=2, Image="rbxassetid://2290983952", ImageTransparency=1})
+	espGui = Create("Folder",CoreGui,{Name="EssenceFolder"})
+	bbTemplate = Create("BillboardGui",nil,{AlwaysOnTop=true, ResetOnSpawn=false, Size=UDim2.new(1,200,1,17), SizeOffset=Vector2.new(0,0.375), StudsOffset=Vector3.new(0,2.5,0)})
+	Create("TextLabel",bbTemplate,{Name="NameTag", BackgroundTransparency=1, Size=UDim2.new(1,0,0.75,0), TextScaled=true, Font="SourceSansBold"})
+	Create("Frame",bbTemplate,{Name="Dot", BorderSizePixel=0, Size=UDim2.new(0,4,0,4), Position=UDim2.new(0.5,-2,0.75,0)})
+	boxTemplate = Create("BoxHandleAdornment",nil,{Name="Box", AlwaysOnTop=true, ZIndex=1, Size=Vector3.new(4,5.5,2), CFrame=CFrame.new(0,-0.25,0)})
+	creditLbl = Create("TextLabel",Main,{BackgroundTransparency=1, Size=UDim2.new(0,80,0,20), Position=UDim2.new(1,63,0.7,0), Font="SourceSansLight", TextColor3=Color3.new(1,1,1), TextScaled=true, Text="by sirelKilla", TextStrokeTransparency=.8})
+	--gui code
+	local function clickEffect(img)
+		local oldcol = img.ImageColor3
+		if oldcol.r*255 < 89 then
+			img.ImageColor3 = Color3.fromRGB(90,90,90)
+			wait(0.07)
+			img.ImageColor3 = oldcol
+		end
+	end
+	local cogOut = false
+	local arrowOut = true
+	local function onArrowClicked()
+		if not cogOut then
+			arrowOut = not arrowOut
+			if arrowOut then
+				Main:TweenPosition(UDim2.new(0.75,0,1,-133),nil,"Quart",0.2,true)
+			else
+				Main:TweenPosition(UDim2.new(0.75,0,1,-30),nil,"Quart",0.2,true)
+			end
+		end
+	end
+	arrowBtn.MouseButton1Click:Connect(onArrowClicked)
+	local cogReturnPos = Main.Position
+	cogBtn.MouseButton1Click:Connect(function()
+		cogOut = not cogOut
+		if cogOut then
+			cogReturnPos = Main.Position
+			Main:TweenPosition(UDim2.new(0.75,0,1,-292),nil,"Quart",0.3,true)
+			local dir = 1
+			while cogOut do
+				local n = cogBtn.ImageTransparency
+				cogBtn.ImageTransparency = n+0.0333*dir
+				if (dir==1 and n>0.5) or (dir==-1 and n<=0) then
+					dir = -dir
+				end
+				wait()
+			end
+			cogBtn.ImageTransparency = 0
+		else
+			cogBtn.ImageTransparency = 0
+			Main:TweenPosition(cogReturnPos,nil,"Quart",0.3,true)
+		end
+	end)
+	local oldNameDist = player.NameDisplayDistance
+	local espOn = false
+	espBtn.MouseButton1Down:Connect(function()
+		espOn = not espOn
+		espLbl.Text = espOn and "ON" or "OFF"
+		if espOn then
+			player.NameDisplayDistance = 0
+			espManage()
+		else
+			player.NameDisplayDistance = oldNameDist
+			for _,folder in ipairs(espGui:GetChildren()) do
+				if Players:FindFirstChild(folder.Name) then
+					folder.Box.Visible = false
+					folder.BillboardGui.Enabled = false
+				else
+					folder:Destroy()
+				end
+			end
+		end
+		clickEffect(espBtn)
+	end)
+	local noclipOn = false
+	noclipBtn.MouseButton1Down:Connect(function()
+		noclipOn = not noclipOn
+		noclipLbl.Text = noclipOn and "ON" or "OFF"
+		clickEffect(noclipBtn)
+	end)
+	tpmodeBtn.MouseButton1Down:Connect(function()
+		tpExact = not tpExact
+		tpmodeLbl.Text = tpExact and "EXACT" or "MOVE"
+		clickEffect(tpmodeBtn)
+	end)
+	tpignoreBtn.MouseButton1Click:Connect(function()
+		tpIgnore = not tpIgnore
+		tpignoreBtn.Text = tpIgnore and 'X' or ''
+	end)
+	local tweenDelOut = game:GetService("TweenService"):Create(partDelBtn,TweenInfo.new(0.33),{ImageTransparency=0})
+	local tweenDelIn = game:GetService("TweenService"):Create(partDelBtn,TweenInfo.new(0.33),{ImageTransparency=1})
+	partDelBtn.MouseEnter:Connect(function() tweenDelOut:Play()  end)
+	partDelBtn.MouseLeave:Connect(function() tweenDelIn:Play() end)
+	local function hidePartInfo()
+		partInfoBox.Adornee = nil
+		partInfoGui.Adornee = nil
+		partInfoGui.Enabled = false
+		partInfoBox.Visible = false
+		partDelBtn.ImageTransparency = 1
+		tweenDelIn:Play()
+	end
+	partDelBtn.MouseButton1Click:Connect(function()
+		if partInfoGui.Adornee and partInfoGui.Adornee.Parent and partDelBtn.ImageTransparency < 0.1 and not UIS:IsKeyDown(settings.clickespKey) then
+			partInfoGui.Adornee:Destroy()
+			hidePartInfo()
+		end
+	end)
+	cmdBox.FocusLost:Connect(function(enterPressed)
+		local msg = cmdBox.Text:lower()
+		cmdBox.Text = ''
+		if enterPressed then
+			if msg:sub(1,1):byte() == Enum.KeyCode[settings.cmdKey].Value then
+				msg = msg:sub(2)
+			end
+			for cmd,callback in pairs(adminCommands) do
+				if msg:sub(1,#cmd)==cmd and (msg..' '):sub(#cmd+1,#cmd+1) == ' ' then
+					callback(msg:sub(#cmd+2))
+					break
+				end
+			end
+		end
+	end)
+	local oldEspLimit = espLimitBox.Text
+	espLimitBox:GetPropertyChangedSignal("Text"):Connect(function()
+		if #espLimitBox.Text>5 or espLimitBox.Text:match("%D") then
+			espLimitBox.Text = oldEspLimit
+		end
+		oldEspLimit = espLimitBox.Text
+	end)
+	if setclipboard or Clipboard then
+		local tweenCopyOut = game:GetService("TweenService"):Create(copyPosBtn,TweenInfo.new(0.33),{TextTransparency=0,BackgroundTransparency=0.4})
+		local tweenCopyIn = game:GetService("TweenService"):Create(copyPosBtn,TweenInfo.new(0.33),{TextTransparency=1,BackgroundTransparency=1})
+		copyPosBtn.MouseEnter:Connect(function() tweenCopyOut:Play() end)
+		copyPosBtn.MouseLeave:Connect(function() tweenCopyIn:Play() end)
+		copyPosBtn.MouseButton1Click:Connect(function()
+			local pos = root.Position
+			if setclipboard then
+				setclipboard(string.format("%.2f, %.2f, %.2f",pos.X,pos.Y,pos.Z))
+			else
+				Clipboard.set(string.format("%.2f, %.2f, %.2f",pos.X,pos.Y,pos.Z))
+			end
+		end)
+	end
+	--// input //
+	local function onMouseDown()
+		if UIS:IsKeyDown(settings.clickespKey) or UIS:IsKeyDown(settings.clicktpKey) then
+			local UnitRay = cam:ViewportPointToRay(UIS:GetMouseLocation().X,UIS:GetMouseLocation().Y)
+			local part,hitp,normal
+			repeat
+				part,hitp,normal = workspace:FindPartOnRayWithIgnoreList(Ray.new(hitp or UnitRay.Origin,UnitRay.Direction*5000),{player.Character,part})
+			until part==nil or tpIgnore==false or part.Transparency<0.9
+			if part then
+				if UIS:IsKeyDown(settings.clicktpKey) then
+					if tpExact then
+						root.CFrame = (root.CFrame-root.CFrame.p)+(hitp+normal*3.2)
+					else
+						player.Character:MoveTo(hitp+Vector3.new(0,3.2,0))
+					end
+				elseif partInfoBox.Adornee == part then
+					hidePartInfo()
+				else
+					partNameLbl.Text = "Workspace".. part:GetFullName():sub(#workspace.Name+1)
+					partPosLbl.Text = string.format("%.2f, %.2f, %.2f",part.Position.X,part.Position.Y,part.Position.Z)
+					partInfoGui.Adornee = part
+					partInfoBox.Adornee = part
+					partInfoGui.Enabled = true
+					partInfoBox.Visible = true
+				end
+			end
+		end
+	end
+	local noclipPressedTick = 0
+	UIS.InputBegan:Connect(function(input,gpe)
+		local box = UIS:GetFocusedTextBox()
+		if input.KeyCode==Enum.KeyCode.F9 then
+			--old console
+			--[[
+			local visible = not StarterGui:GetCore("DeveloperConsoleVisible")
+			StarterGui:SetCore("DevConsoleVisible", false)
+			StarterGui:SetCore("DeveloperConsoleVisible", visible)
+			wait()
+			StarterGui:SetCore("DevConsoleVisible", false)
+			StarterGui:SetCore("DeveloperConsoleVisible", visible)
+			if visible then
+				local optionsFrame = CoreGui.RobloxGui:WaitForChild("DeveloperConsole"):WaitForChild("Interior"):WaitForChild("OptionsClippingFrame"):WaitForChild("OptionsFrame"):WaitForChild("Log")
+				wait()
+				for _,v in ipairs(optionsFrame:GetChildren()) do
+					if v.Name=="Checkbox" and v.Position.X.Offset > 200 and v.Button.Check.Visible==false then
+						--enable word wrap
+						local btn = v.Button
+						btn.BackgroundTransparency = 1
+						btn.Check.BackgroundTransparency = 1
+						btn.Parent = CoreGui.RobloxGui.DeveloperConsole
+						wait()
+						game:GetService("VirtualInputManager"):SendMouseButtonEvent(btn.AbsolutePosition.X+99, btn.AbsolutePosition.Y+99, 0, true, game)
+						wait()
+						game:GetService("VirtualInputManager"):SendMouseButtonEvent(btn.AbsolutePosition.X+99, btn.AbsolutePosition.Y+99, 0, false, game)
+						wait()
+						btn.Check.BackgroundTransparency = 0
+						btn.Parent = v
+						break
+					end
+				end
+			end
+			--]]
+		elseif box then
+			if box ~= espLimitBox and box.Parent == Options and input.UserInputType==Enum.UserInputType.Keyboard then
+				box.Text = shortenKey(input.KeyCode.Name)
+				box:ReleaseFocus()
+				settings[box.Name:sub(1,-4)] = input.KeyCode.Name
+				noclipPressedTick = tick()
+				cmdBox.PlaceholderText = string.gsub(";rj ;goto ;hh ;ws ;jp",";",shortenKey(settings.cmdKey))
+			end
+		elseif input.UserInputType==Enum.UserInputType.MouseButton1 then
+			onMouseDown()
+		elseif input.KeyCode == Enum.KeyCode.B and UIS:IsKeyDown(Enum.KeyCode.LeftAlt) then
+			--press ALT+B to toggle backpack
+			StarterGui:SetCoreGuiEnabled("Backpack", not StarterGui:GetCoreGuiEnabled("Backpack"))
+		elseif input.KeyCode.Name == settings.cmdKey then
+			wait()
+			cmdBox:CaptureFocus()
+			if not arrowOut then
+				onArrowClicked()
+			end
+		elseif input.KeyCode.Name == settings.noclipKey then
+			noclipOn = not noclipOn
+			noclipLbl.Text = noclipOn and "ON" or "OFF"
+			noclipPressedTick = tick()
+		end
+	end)
+	UIS.InputEnded:Connect(function(input,gpe)
+		if UIS:GetFocusedTextBox()==nil and input.KeyCode.Name == settings.noclipKey and tick()-noclipPressedTick > 0.1 then
+			noclipOn = not noclipOn
+			noclipLbl.Text = noclipOn and "ON" or "OFF"
+		end
+	end)
+	UIS.TextBoxFocusReleased:Connect(function(box)
+		if box == espLimitBox then
+			if tonumber(espLimitBox.Text) then
+				espLimit=tonumber(espLimitBox.Text)
+			end
+			espLimitBox.Text=tostring(espLimit)
+			if espOn then
+				espManage()
+			end
+		elseif box.Parent == Options and box.Text == '' then
+			settings[box.Name:sub(1,-4)] = "World69"
+		end
+	end)
+	--// handle character //
+	local noclipParts = {}
+	local function onNewChar(char)
+		if not char then return end
+		root = char:WaitForChild("HumanoidRootPart",4)
+		wait(0.5)
+		if char~=player.Character then return end
+		noclipParts = {}
+		for _,v in ipairs(char:GetChildren()) do
+			if v:IsA("BasePart") then
+				noclipParts[#noclipParts+1]=v
+			end
+		end
+	end
+	player.CharacterAdded:Connect(onNewChar)
+	onNewChar(player.Character)
+	game:GetService("RunService").Stepped:Connect(function()
+		if noclipOn then
+			for i=1,#noclipParts do
+				noclipParts[i].CanCollide=false
+			end
+		end
+	end)
+	--// stats loops //
+	local elapsed = 0
+	local frames = 0
+	game:GetService("RunService"):BindToRenderStep(tostring(math.random()),1,function(delta)
+		elapsed=elapsed+delta
+		if elapsed > 1 then
+			fpsLbl.Text = tostring(frames).." FPS"
+			elapsed = 0
+			frames = 0
+		else
+			frames=frames+1
+		end
+	end)
+	while true do
+		if root then
+			xLbl.Text = string.format("%.2f",root.Position.X)
+			yLbl.Text = string.format("%.2f",root.Position.Y)
+			zLbl.Text = string.format("%.2f",root.Position.Z)
+		end
+		timeLbl.Text = string.format("%d:%.2d", workspace.DistributedGameTime/60,workspace.DistributedGameTime%60)
+		if partInfoGui.Enabled and partInfoGui.Adornee then
+			local pos = partInfoGui.Adornee.Position
+			partPosLbl.Text = string.format("%.2f, %.2f, %.2f",pos.X,pos.Y,pos.Z)
+		end
+		if espOn and tick()-espManagementTick > ((Random==nil or PluginManager==nil) and 1 or 0.5) then
+			espManage()
+		end
+		wait(0.1)
+	end
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(XUPZX_fake_script)()
+local function AGXQA_fake_script() -- antistomp.LocalScript 
+	local script = Instance.new('LocalScript', antistomp)
+
+	function leftclick()
+		game.Players.LocalPlayer.Character.FakeDeath:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(AGXQA_fake_script)()
+local function CCDXHJ_fake_script() -- GunDupeGui.LocalScript 
+	local script = Instance.new('LocalScript', GunDupeGui)
+
+	function leftclick()
+		local CloneTools = Instance.new("ScreenGui")
+	local Drag = Instance.new("TextButton")
+	local Background = Instance.new("ImageLabel")
+	local Clone = Instance.new("TextButton")
+	local Input = Instance.new("TextBox")
+	
+	CloneTools.Name = "CloneTools"
+	CloneTools.Parent = game.CoreGui
+	
+	Drag.Name = "Drag"
+	Drag.Parent = CloneTools
+	Drag.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Drag.BackgroundTransparency = 0.9990000128746
+	Drag.BorderColor3 = Color3.new(1, 1, 1)
+	Drag.Position = UDim2.new(0.788501024, 0, 0.37571159, 0)
+	Drag.Size = UDim2.new(0, 190, 0, 190)
+	Drag.Font = Enum.Font.ArialBold
+	Drag.Text = ""
+	Drag.TextColor3 = Color3.new(1, 1, 1)
+	Drag.TextSize = 14
+	Drag.TextWrapped = true
+	Drag.Draggable = true
+	
+	Background.Name = "Background"
+	Background.Parent = Drag
+	Background.BackgroundColor3 = Color3.new(1, 1, 1)
+	Background.Position = UDim2.new(0.00235599279, 0, -0.0012384057, 0)
+	Background.Size = UDim2.new(0, 190, 0, 190)
+	Background.ZIndex = 0
+	Background.Image = "rbxassetid://0&hash=12ed3f0fdc0764ab01645b356df12dc3"
+	
+	Clone.Name = "CloneTools"
+	Clone.Parent = Background
+	Clone.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Clone.BackgroundTransparency = 0.80000001192093
+	Clone.BorderColor3 = Color3.new(1, 1, 1)
+	Clone.Position = UDim2.new(0.042105265, 0, 0.66842109, 0)
+	Clone.Size = UDim2.new(0, 174, 0, 37)
+	Clone.ZIndex = 2
+	Clone.Font = Enum.Font.ArialBold
+	Clone.Text = "Clone Tools"
+	Clone.TextColor3 = Color3.new(1, 1, 1)
+	Clone.TextSize = 14
+	Clone.TextStrokeTransparency = 0
+	
+	Input.Name = "Input"
+	Input.Parent = Background
+	Input.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+	Input.BackgroundTransparency = 0.60000002384186
+	Input.BorderColor3 = Color3.new(1, 1, 1)
+	Input.Position = UDim2.new(0.0421053171, 0, 0.0789474025, 0)
+	Input.Size = UDim2.new(0, 174, 0, 37)
+	Input.ZIndex = 2
+	Input.Font = Enum.Font.ArialBold
+	Input.Text = "Amount of times to clone"
+	Input.TextColor3 = Color3.new(1, 1, 1)
+	Input.TextScaled = true
+	Input.TextSize = 14
+	Input.TextWrapped = true
+	
+	
+	Clone.MouseButton1Click:connect(function()
+	   local multiplier = game.CoreGui.CloneTools.Drag.Background.Input.Text
+	
+	
+	for i = 1, multiplier do
+	for _,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+	if (v:IsA("Tool")) then
+	v.Parent = game.Players.LocalPlayer
+	end
+	end
+	wait(0.1)
+	game.Players.LocalPlayer.Character.Head:Destroy()
+	wait(7)
+	end
+	wait(0.5)
+	for _,v in pairs(game.Players.LocalPlayer:GetChildren()) do
+	if (v:IsA("Tool")) and v.Name ~= "Knife" and v.Name ~= "Punch" and v.Name ~= "Pipe" and v.Name ~= "BoomBox_Old" and v.Name ~= "Boombox" then
+	v.Parent = game.Players.LocalPlayer.Backpack
+	end
+	end
+	for _,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+	if (v:IsA("Tool")) then
+	v.CanBeDropped = true
+	end
+	end
+	
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(CCDXHJ_fake_script)()
+local function PPSIWR_fake_script() -- FEHugKill.LocalScript 
+	local script = Instance.new('LocalScript', FEHugKill)
+
+	function leftClick()
+		--[[ FE Hug Kill
+	    Script made by Cyclically
+	    Credits to dhruvil123 for help
+	    https://v3rmillion.net/member.php?action=profile&uid=785986
+	    Don't edit script unless you know what you're doing. If you wanna add this into a script
+	]]
+	
+	local LocalPlayer = game:GetService("Players").LocalPlayer
+	local torsoname = "Torso"
+	if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+	    torsoname = "UpperTorso"
+	end
+	LocalPlayer.Character:FindFirstChild("Animate").toolnone.ToolNoneAnim.AnimationId = math.huge
+	LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+	local tool = Instance.new("Tool", LocalPlayer.Backpack)
+	LocalPlayer.Character:FindFirstChildOfClass("Accessory").Handle.Parent = tool
+	tool.Handle.Massless = true
+	tool.GripPos = Vector3.new(0, math.huge, 0)
+	tool.Parent = LocalPlayer.Character
+	wait()
+	tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+	LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(PPSIWR_fake_script)()
+local function VTWT_fake_script() -- _115Script.LocalScript 
+	local script = Instance.new('LocalScript', _115Script)
+
+	function leftClick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/V22qyUGy'),true))()
+		end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(VTWT_fake_script)()
+local function MBSO_fake_script() -- _115Script.LocalScript 
+	local script = Instance.new('LocalScript', _115Script)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/7yhZVkrZ'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(MBSO_fake_script)()
+local function YBKUMFD_fake_script() -- RESET_2.LocalScript 
+	local script = Instance.new('LocalScript', RESET_2)
+
+	function leftclick()
+		game.Players.LocalPlayer.Character:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(YBKUMFD_fake_script)()
+local function YKZFIGM_fake_script() -- SOFTRESET_2.LocalScript 
+	local script = Instance.new('LocalScript', SOFTRESET_2)
+
+	function leftclick()
+	game.ReplicatedStorage.OpenEyes:FireServer()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(YKZFIGM_fake_script)()
+local function IBVKSH_fake_script() -- ninjakit.LocalScript 
+	local script = Instance.new('LocalScript', ninjakit)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/swuAHZKd'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(IBVKSH_fake_script)()
+local function TEZDKS_fake_script() -- superherokit.LocalScript 
+	local script = Instance.new('LocalScript', superherokit)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/rs5fSHpb'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+	
+end
+coroutine.wrap(TEZDKS_fake_script)()
+local function IOELN_fake_script() -- werewolfkit.LocalScript 
+	local script = Instance.new('LocalScript', werewolfkit)
+
+	
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/3nQRgdJE'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(IOELN_fake_script)()
+local function HDCI_fake_script() -- vampire.LocalScript 
+	local script = Instance.new('LocalScript', vampire)
+
+	function leftclick()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/qq062W7q"),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+end
+coroutine.wrap(HDCI_fake_script)()
+local function DVQEFD_fake_script() -- magekit.LocalScript 
+	local script = Instance.new('LocalScript', magekit)
+
+	function leftclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/ymYwcazn", true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(DVQEFD_fake_script)()
+local function DVTQXSX_fake_script() -- stylishkit.LocalScript 
+	local script = Instance.new('LocalScript', stylishkit)
+
+	function leftClick()
+		 loadstring(game:HttpGet(('https://pastebin.com/raw/ZhmyqCBm'),true))()
+	    end 
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	
+	
+end
+coroutine.wrap(DVTQXSX_fake_script)()
+local function BEHYPVZ_fake_script() -- bubblykit.LocalScript 
+	local script = Instance.new('LocalScript', bubblykit)
+
+	function leftClick()
+	    	loadstring(game:HttpGet(('https://pastebin.com/raw/iq6ka9vm'),true))()
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(BEHYPVZ_fake_script)()
+local function FCWI_fake_script() -- levitationkit.LocalScript 
+	local script = Instance.new('LocalScript', levitationkit)
+
+	function leftClick()
+	    	loadstring(game:HttpGet(('https://pastebin.com/raw/ujiAjN4w'),true))()
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(FCWI_fake_script)()
+local function TARLKN_fake_script() -- Domsmemekit.LocalScript 
+	local script = Instance.new('LocalScript', Domsmemekit)
+
+	function leftclick()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/rvufyjnW'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(TARLKN_fake_script)()
+local function TTPGFRF_fake_script() -- RESET_3.LocalScript 
+	local script = Instance.new('LocalScript', RESET_3)
+
+	function leftclick()
+		game.Players.LocalPlayer.Character:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(TTPGFRF_fake_script)()
+local function IISDK_fake_script() -- SOFTRESET_3.LocalScript 
+	local script = Instance.new('LocalScript', SOFTRESET_3)
+
+	function leftclick()
+	game.ReplicatedStorage.OpenEyes:FireServer()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(IISDK_fake_script)()
+local function RUUF_fake_script() -- zombie_kit.LocalScript 
+	local script = Instance.new('LocalScript', zombie_kit)
+
+	function leftClick()
+	    	loadstring(game:HttpGet(('https://pastebin.com/raw/T2twP4QX'),true))()
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+	
+end
+coroutine.wrap(RUUF_fake_script)()
+local function UPSWSVA_fake_script() -- elderkit.LocalScript 
+	local script = Instance.new('LocalScript', elderkit)
+
+	function leftClick()
+	    	loadstring(game:HttpGet(('https://pastebin.com/raw/NRsuBdrV'),true))()
+	    end 
+	    script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(UPSWSVA_fake_script)()
+local function ATRI_fake_script() -- knightkit.LocalScript 
+	local script = Instance.new('LocalScript', knightkit)
+
+	function leftclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/HdawYgKs", true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+	
+	
+end
+coroutine.wrap(ATRI_fake_script)()
+local function PKDGR_fake_script() -- toykit.LocalScript 
+	local script = Instance.new('LocalScript', toykit)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/42P7A9EX'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+end
+coroutine.wrap(PKDGR_fake_script)()
+local function QFCAZ_fake_script() -- cartoonykit.LocalScript 
+	local script = Instance.new('LocalScript', cartoonykit)
+
+	function leftClick()
+		 loadstring(game:HttpGet(('https://pastebin.com/raw/QtKXa0HW'),true))()
+	    end 
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(QFCAZ_fake_script)()
+local function DXSKOHN_fake_script() -- astronautkit.LocalScript 
+	local script = Instance.new('LocalScript', astronautkit)
+
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/2wkDkCqL'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+end
+coroutine.wrap(DXSKOHN_fake_script)()
+local function EJKW_fake_script() -- robotkit.LocalScript 
+	local script = Instance.new('LocalScript', robotkit)
+
+	function leftclick()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/DkeFs5sr"),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+end
+coroutine.wrap(EJKW_fake_script)()
+local function EUXIBH_fake_script() -- piratekit.LocalScript 
+	local script = Instance.new('LocalScript', piratekit)
+
+	
+	function leftclick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/MSwFc90e'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(leftclick)
+	
+	
+end
+coroutine.wrap(EUXIBH_fake_script)()
+local function UQTDH_fake_script() -- RESET_4.LocalScript 
+	local script = Instance.new('LocalScript', RESET_4)
+
+	function leftclick()
+		game.Players.LocalPlayer.Character:Destroy()
+	end
+end
+coroutine.wrap(UQTDH_fake_script)()
+local function ECXH_fake_script() -- SOFTRESET_4.LocalScript 
+	local script = Instance.new('LocalScript', SOFTRESET_4)
+
+	function leftclick()
+	game.ReplicatedStorage.OpenEyes:FireServer()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(ECXH_fake_script)()
+local function QOOXXIE_fake_script() -- Close.CloseScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local button = script.Parent
+	local frame = button.Parent.Pages
+	local pb = script.Parent.Parent.PrevButton
+	local nb = script.Parent.Parent.NextButton
+	
+	button.MouseButton1Click:connect(function()
+	frame.Visible = false
+	pb.Visible = false
+	nb.Visible = false
+	end)
+end
+coroutine.wrap(QOOXXIE_fake_script)()
+local function RDVVJXJ_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local button = script.Parent
+	local frame = button.Parent.Pages
+	local pb = script.Parent.Parent.PrevButton
+	local nb = script.Parent.Parent.NextButton
+	
+	button.MouseButton1Click:connect(function()
+	frame.Visible = true
+	pb.Visible = true
+	nb.Visible = true
+	end)
+end
+coroutine.wrap(RDVVJXJ_fake_script)()
